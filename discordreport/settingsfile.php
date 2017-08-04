@@ -15,7 +15,7 @@
 			"default" => "https://maxcdn.icons8.com/Share/icon/Logos//discord_logo1600.png",
 			"name" => "Webhook profile picture",
 		),
-		"reportPassMatches" => array(
+		/*"reportPassMatches" => array(
 			"type" => "boolean",
 			"default" => "0",
 			"name" => "Report number of password matches",
@@ -24,6 +24,6 @@
 			"type" => "boolean",
 			"default" => "0",
 			"name" => "Report number of IP matches",
-		),
+		),*/
 	);
 ?>

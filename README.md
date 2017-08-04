@@ -23,12 +23,12 @@ Requirements for this plugin are as follows:
  4. click on the "settings" link in the plugin manager. Paste your webhook link in the box next to where it says "Discord webhook link". you can change anything else here if you want, like the bot username and profile picture.
  5. Click "save and exit" and bma! the plugin should be working correctly!
  
- I hope you enjoy this plugin and you get a lot of use from it
+I hope you enjoy this plugin and you get a lot of use from it
  
- ### Credits
- Dirbaio: Original IRC report plugin
- EzioisAwesome56: Discord report plugin
- A random redit post about using php to send a message to a webhook
+### Credits
+ * Dirbaio: Original IRC report plugin
+ * EzioisAwesome56: Discord report plugin
+ * A random redit post about using php to send a message to a webhook
  
  
  If you have any issues, please fill out an issue

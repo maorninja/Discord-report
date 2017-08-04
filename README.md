@@ -6,7 +6,7 @@ The original IRC report plugin was made to report to an irc channel via an irc b
 For me, however, it didnt work for some reason. So today I have rewritten the IRC report backend and made it sent to Discord instead
 ### How does it work?
 Its very simple how this works. It uses CURL and JSON to send the required information to discord via a text channel webhook. The new backend (a new init.php) is 100% compatible with all pages made for the original IRC report plugin.
-It does this by reusing the old function names and arguments (the core reporting function is still ```function ircReport($stuff)```), but with all new code powering it that takes what it needs and sends it to discord. This means that as long as your page works with the original IRC report plugion, itll probably work here.
+It does this by reusing the old function names and arguments (the core reporting function is still ```function ircReport($stuff)```), but with all new code powering it that takes what it needs and sends it to discord. This means that as long as your page works with the original IRC report plugin, itll probably work here.
 
 ### Requirements
 **NOTICE: THIS PLUGIN MAY NOT WORK ON ABXD**

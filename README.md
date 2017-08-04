@@ -23,7 +23,7 @@ Requirements for this plugin are as follows:
  2. Second, copy the "discordreport" folder from this repo into your Blargboard's "plugins" folder. The plugin is now installed.
  3. Enable the plugin in the plugin manager.
  4. click on the "settings" link in the plugin manager. Paste your webhook link in the box next to where it says "Discord webhook link". you can change anything else here if you want, like the bot username and profile picture.
- 5. Click "save and exit" and bma! the plugin should be working correctly!
+ 5. Click "save and exit" and bam! the plugin should be working correctly!
  
 I hope you enjoy this plugin and you get a lot of use from it
  

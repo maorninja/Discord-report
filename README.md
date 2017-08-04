@@ -29,3 +29,6 @@ Requirements for this plugin are as follows:
  Dirbaio: Original IRC report plugin
  EzioisAwesome56: Discord report plugin
  A random redit post about using php to send a message to a webhook
+ 
+ 
+ If you have any issues, please fill out an issue

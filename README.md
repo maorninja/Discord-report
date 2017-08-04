@@ -9,7 +9,7 @@ Its very simple how this works. It uses CURL and JSON to send the required infor
 It does this by reusing the old function names and arguments (the core reporting function is still ```function ircReport($stuff)```), but with all new code powering it that takes what it needs and sends it to discord. This means that as long as your page works with the original IRC report plugin, itll probably work here.
 
 ### Requirements
-**NOTICE: THIS PLUGIN MAY NOT WORK ON ABXD**
+**NOTICE: THIS PLUGIN MAY NOT WORK ON ABXD**<br>
 Requirements for this plugin are as follows:
  * Blargboard 1.2/MRS 1.2.5 (Anything compatible with 1.2 plugins should work fine)
  * php5 (untested on php7)

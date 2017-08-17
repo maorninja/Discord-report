@@ -6,7 +6,7 @@ $thename = $loguser["name"];
 if($loguser["displayname"])
 	$thename = $loguser["displayname"];
 	
-$fpage = ircForumPrefix($forum);
+$fpage = DiscordForumPrefix($forum);
 $link = getServerDomainNoSlash().actionLink("post", $pid);
 
 DiscordReport("Post edited by "

@@ -9,11 +9,11 @@ if($loguser["displayname"])
 $fpage = ircForumPrefix($forum);
 $link = getServerDomainNoSlash().actionLink("post", $pid);
 
-ircReport("Post edited by "
-	.ircUserColor($thename, $loguser['sex'], 0)
-	."\003$c2: \003$c1"
+DiscordReport("Post edited by "
+	.$thename
+	.": "
 	.$thread["title"]
-	."\003$c2 (".$fpage.$forum["title"].")"
+	."(".$fpage.$forum["title"].")"
 	." -- "
 	.$link
 	);

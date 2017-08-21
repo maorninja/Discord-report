@@ -9,8 +9,8 @@ if($loguser["displayname"])
 $fpage = DiscordForumPrefix($forum);
 $link = getServerDomainNoSlash().actionLink("thread", $tid, "", $thread['title']);
 
-ircReport("New thread by"
-	.ircUserColor($thename, $loguser['sex'], 0)
+DiscordReport("New thread by"
+	.$thename
 	.": "
 	.$thread["title"]
 	." (".$fpage.$forum["title"].")"
